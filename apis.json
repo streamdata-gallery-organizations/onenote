@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - OneNote",
+	"description": "This is a repository of onenote APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/onenote.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://onenote.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "OneNote",
+			"x-api-slug": "onenote",
+			"description": "Microsoft OneNote (formerly called Microsoft Office OneNote) is a computer program for free-form information gathering and multi-user collaboration. It gathers users notes (handwritten or typed), drawings, screen clippings and audio commentaries. Notes can be shared with other OneNote users over the Internet or a network. OneNote is available as a part of the Microsoft Office suite. It is also available as a free stand-alone application for Windows, Mac, Windows RT, Windows Phone, iOS, Android and Symbian.[4] A web-based version of OneNote is provided as part of OneDrive or Office Online and enables users to edit notes via a web browser.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://onenote.com",
+			"baseURL": "https://www.onenote.com//api/v1.0/me/notes/",
+			"tags": "OneNote",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/onenote/master/_listings/onenote/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "OneNote",
+	"include": [
+		{
+			"name": "OneNote",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/onenote/master/_listings/onenote/apis.yaml"
+		}
+	]
+}
